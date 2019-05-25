@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev # 开发环境
+  application:
+    name: miscroservicecloud-config-dev
+---
+spring:
+  profiles: test # 测试环境
+  application:
+    name: miscroservicecloud-config-test
+
+# 保存为UTF-8模式
